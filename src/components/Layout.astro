@@ -1,0 +1,36 @@
+---
+
+---
+
+<div class="layout-container">
+  <h1>dazalez.dev</h1>
+</div>
+
+<style>
+  .layout-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Gradiente inicial azul-verde */
+    background: linear-gradient(270deg, #007bff, #14e36a);
+    background-size: 400% 400%;
+
+    /* Animación suave */
+    animation: gradient-shift 7s ease infinite;
+  }
+
+  @keyframes gradient-shift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>

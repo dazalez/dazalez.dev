@@ -1,0 +1,32 @@
+---
+import "@fontsource-variable/inter";
+import Layout from "../components/Layout.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>dazalez.dev</title>
+  </head>
+  <body>
+    <Layout />
+  </body>
+</html>
+
+<style is:global>
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  *:not(dialog) {
+    margin: 0;
+  }
+
+  html {
+    font-family: "Inter Variable", system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+</style>
